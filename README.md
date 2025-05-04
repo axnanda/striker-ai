@@ -1,4 +1,28 @@
+# Striker AI
+
+Striker AI is a modular system for **multi-modal Retrieval-Augmented Generation (RAG)**. It ties together large language models (LLMs), web search, visual and audio analysis, and vector-based retrieval to answer queries using up-to-date information. 
+
+## Features
+
+- **Multi-provider LLM support**: Use models via OpenAI, Groq, or Cerebras with a unified interface.
+- **Vision & Audio Analysis**: BLIP-2 for image captioning, Whisper for audio transcription.
+- **Universal RAG**: Stores text, image captions, and transcripts in a vector DB (Chroma) for semantic search:contentReference[oaicite:6]{index=6}:contentReference[oaicite:7]{index=7}.
+- **Web Scraping**: Google/Bing search (via SerpAPI) and browser-based scraping (Playwright) including social media.
+- **Configurable & Containerized**: Docker and docker-compose for easy deployment.
+- **MLflow Integration (optional)**: Log inference outputs, embeddings, and artifacts for experiment tracking.
+
+## Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-org/striker-ai.git
+   cd striker-ai
+
+
+```
+
 # dsa-tds-scraper and PDF Analysis of Wyscout Documents (scroll down for PDF analysis!!)
+
 ## Features
 - **division, week, league info**
 - **Batched and Unbatched Processing**
